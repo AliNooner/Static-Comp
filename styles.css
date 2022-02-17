@@ -3,7 +3,54 @@
   color: black;
 }
 
+html{
+  height: 100vh;
+  width: 100vw;
+}
+
+header{
+  background-color: pink;
+  height: 20vh;
+  background-color: #b5e48c;
+}
+
+/*moves admin/guest box to far right*/
+/*also moves user icon because icon is a child of user-menu*/
 .user-menu{
-  float: right;
-  padding-right: 5vh;;
+    display: flex;
+    justify-content: flex-end;
+    height: 15%;
+  }
+
+/*shares, fish list, favorites*/
+.header-options{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/*moves list items to where they need to be in nav*/
+.list-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10vh;
+}
+
+/*adds space between shares, fish list, favorites*/
+.option{
+  /* padding-right: 3vh; */
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+/*centers user icon next to drop down box*/
+.fa-circle-user{
+  padding: 5px;
+  /* color:  #d9ed92; */
+}
+
+/*centers fish icon next to tagline*/
+.fa-fish{
+  padding:1vh;
 }
