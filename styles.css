@@ -10,9 +10,14 @@ html{
 
 header{
   background-color: pink;
-  height: 20vh;
+  height: 16vh;
   background-color: #b5e48c;
 }
+
+/*moves tagline and fish icon to where it needs to be in header*/
+/* h1{ */
+  /* padding-bottom: 4vh; */
+/* } */
 
 /*moves admin/guest box to far right*/
 /*also moves user icon because icon is a child of user-menu*/
@@ -27,14 +32,17 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding-top: 4vh;
 }
 
 /*moves list items to where they need to be in nav*/
+/*list style type removes dots next to words*/
 .list-items{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 10vh;
+  /* justify-content: space-between; */
+  margin-top: 5vh;
+  list-style-type: none;
 }
 
 /*adds space between shares, fish list, favorites*/
@@ -53,4 +61,9 @@ header{
 /*centers fish icon next to tagline*/
 .fa-fish{
   padding:1vh;
+}
+
+.card{
+  /* background-color: #d9ed92; */
+  /* border-radius: 5px; */
 }
