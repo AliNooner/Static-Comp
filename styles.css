@@ -14,6 +14,12 @@ header{
   background-color: #b5e48c;
 }
 
+/*makes images all the same size*/
+img{
+  height: 350px;
+  width: 300px;
+}
+
 /*moves tagline and fish icon to where it needs to be in header*/
 /* h1{ */
   /* padding-bottom: 4vh; */
