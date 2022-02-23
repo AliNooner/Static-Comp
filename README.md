@@ -1,4 +1,4 @@
-# static-comp -- ADOPT ME!
+# Static Comp - Popular Dance Moves
 Turing School of Software & Design - Mod 2
 
 
@@ -13,7 +13,8 @@ Turing School of Software & Design - Mod 2
 
 ## Abstract
 
-This project was a solo project in Module 2 of Turing. The main purpose of the project was to practice with HTML and CSS - particularly Grid and Flexbox. We were given a comp to match layout and complexity, but given creative license in the theme and content. I chose to create a "popular dance moves through the years" website because it lifted my spirits.
+This project was a solo project in Module 2 of Turing. The main purpose of the project was to practice with HTML and CSS - particularly Grid and Flexbox. We were given a comp to match layout and complexity, but given creative license in the theme and content. I chose to create a "popular dance moves through the years
+git " website because it lifted my spirits.
 
 ## Technologies
   - HTML
