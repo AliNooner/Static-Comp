@@ -1,6 +1,7 @@
 *{
+  /* font-family: 'Anton', sans-serif; */
   font-family: 'Anton', sans-serif;
-  color: black;
+  color: #6d676e;
 }
 
 html{
@@ -9,9 +10,9 @@ html{
 }
 
 header{
-  background-color: pink;
   height: 16vh;
-  background-color: #b5e48c;
+  /* background-color: #b5e48c; */
+  background-color: #2f4550;
 }
 
 /*makes images all the same size*/
@@ -20,10 +21,39 @@ img{
   width: 300px;
 }
 
-/*moves tagline and fish icon to where it needs to be in header*/
-/* h1{ */
-  /* padding-bottom: 4vh; */
-/* } */
+/*note this throws off some of the flexibility?*/
+body{
+  background-color: #f4f4f9;
+}
+
+h1{
+  color: #e5e5e5;
+}
+
+
+/* adds black background to dance names*/
+/* centers dance name in black box*/
+.name{
+  /* background-color: black; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* lines up name, image and info*/
+/* design wont change when pg changes size*/
+.image-section{
+  position: relative;
+  background-color: white;
+}
+
+/**/
+.dance-image {
+  width: 100%;
+  object-fit: cover;
+  overflow: clip;
+  height: 20em;
+}
 
 /*moves admin/guest box to far right*/
 /*also moves user icon because icon is a child of user-menu*/
@@ -56,12 +86,12 @@ img{
   /* padding-right: 3vh; */
   margin-left: 2vh;
   margin-right: 2vh;
+  color: #e5e5e5;
 }
 
 /*centers user icon next to drop down box*/
 .fa-circle-user{
   padding: 5px;
-  /* color:  #d9ed92; */
 }
 
 /*centers fish icon next to tagline*/
@@ -70,6 +100,30 @@ img{
 }
 
 .card{
-  /* background-color: #d9ed92; */
-  /* border-radius: 5px; */
+  background-color: white;
+  box-shadow: 3px 7px #e5e5e5;
+
+}
+
+/*lines boxes up into a 4x4 position*/
+.grid-container{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  background-color: #f4f4f9;
+}
+
+.other-info{
+  padding-left: 10px;
+}
+
+/* .fa-heart{
+  padding-left: 2vh;
+  padding-top: 2vh;
+} */
+
+/*adds space to left of info on card*/
+.dance-info{
+  padding-left: 10px;
 }
