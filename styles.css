@@ -12,7 +12,8 @@ html{
 header{
   height: 16vh;
   /* background-color: #b5e48c; */
-  background-color: #2f4550;
+  /* background-color: #2f4550; */
+  background-color: #495057;
 }
 
 /*makes images all the same size*/
@@ -30,6 +31,10 @@ h1{
   color: #e5e5e5;
 }
 
+h2{
+  color: #738290;
+}
+
 
 /* adds black background to dance names*/
 /* centers dance name in black box*/
@@ -38,6 +43,8 @@ h1{
   background-color: white;
   display: flex;
   justify-content: center;
+  /* color: #013a63; */
+  color: #73706d;
 }
 
 /* lines up name, image and info*/
@@ -115,7 +122,7 @@ h1{
 }
 
 .other-info{
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
 /* .fa-heart{
